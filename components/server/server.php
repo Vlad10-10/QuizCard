@@ -1,9 +1,8 @@
 <?php
-$host = "127.0.0.1"; // use IP instead of 'localhost'
+$host = "localhost"; 
 $user = "root";
 $password = "";
 $dbname = "cards";
-$port = 3307; // 👈 important: your MySQL port
 
 $conn = mysqli_connect($host, $user, $password, $dbname, $port);
 
